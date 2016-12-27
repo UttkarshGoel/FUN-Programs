@@ -1,0 +1,11 @@
+Setup git
+
+1) Install Git
+2) Generate key (ssh-keygen -t rsa)
+
+echo "# {{repo_name}}" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:UttkarshGoel/FUN-Programs.git
+git push -u origin master

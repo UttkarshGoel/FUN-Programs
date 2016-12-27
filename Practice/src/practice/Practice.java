@@ -18,5 +18,4 @@ public class Practice {
         // TODO code application logic here
         System.out.println("I should start doing something interesting");
     }
-    
 }
