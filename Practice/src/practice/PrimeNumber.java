@@ -16,8 +16,17 @@ public class PrimeNumber {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the number : ");
         int number = s.nextInt();
-        if(!(number%2 == 0)){
-            
-        }
+	int flag = 0;
+    	for(int i = 2; i < number/2; i++){
+	    if(number%i==0){
+		flag = 1;
+	    }
+	}
+	if(flag==1){
+	    System.out.println("Not a prime number");
+	}
+	else{
+	    System.out.println("Prime Number");
+	}
     }
 }
