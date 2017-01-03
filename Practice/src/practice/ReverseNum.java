@@ -9,14 +9,13 @@ package practice;
  *
  * @author Uttkarsh
  */
-public class Practice {
+public class ReverseNum {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("I should start doing something interesting");
 		int rev = 1563847412;
 		int num = reverse(rev);
 		System.out.println("reversed num : " + num);
